@@ -23,12 +23,12 @@ Secure Software Engineering | 21         | ?                                   |
 
 In the span of one hour, we should be able to be able to summarize 2 weeks of lectures. This means about 30 minutes per lecture and thus we should focus on important or advanced concepts as student will be familiar with the basic ones. The idea is that people presenting are experts in their respective lecture and share their knowledge. To have a good idea of what the presentation should be about, check the last slide of every lecture.
 
-Suggested structure:
+### Suggested structure:
 
 * Important Concept 1:
-* What it is about ?
-* How it fits in the 
-* Why it is important.
-* How does it differ from other concepts we’ve seen ?
+    * What it is about ?
+    * How it fits in the 
+    * Why it is important.
+    * How does it differ from other concepts we’ve seen ?
 
 * Repeat for every concept
