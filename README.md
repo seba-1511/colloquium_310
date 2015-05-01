@@ -1,26 +1,23 @@
-# colloquium_310
+# Colloquium 310
 
 This repository will contain all summaries produced for the second part of lecture _Software Engineering_, CSCI 310.
 
 ## List of Lectures
 
- The list of covered by those summaries, as well as who worked on them.
+The list of covered by those summaries, as well as who worked on them.
 
- Lecture Title               | Lecture n° | Authors                             | Link
- ----------------------------|------------|-------------------------------------|------
- Software Process Models     | 12         | Author 1 & Author 2                 | [link](http://www.github.com/)
- Agile Development           | 13         | ?                                   | [link](http://www.github.com/)
- Cleanroom Dev Process       | 14         | ?                                   | [link](http://www.github.com/)
- Black-box Testing           | 15         | ?                                   | [link](http://www.github.com/)              
- White-box Testing           | 16         | ?                                   | [link](http://www.github.com/)
- Regression Testing          | 17         | ?                                   | [link](http://www.github.com/)
- Fault Localization          | 18         | ?                                   | [link](http://www.github.com/)
- Architectural Styles        | 19         | ?                                   | [link](http://www.github.com/)
- Design Patterns             | 20         | ?                                   | [link](http://www.github.com/)
- Secure Software Engineering | 21         | ?                                   | [link](http://www.github.com/)
-
- 
-
+Lecture Title               | Lecture n° | Authors                             | Link
+----------------------------|------------|-------------------------------------|------
+Software Process Models     | 12         | Author 1 & Author 2                 | [link](http://www.github.com/)
+Agile Development           | 13         | ?                                   | [link](http://www.github.com/)
+Cleanroom Dev Process       | 14         | ?                                   | [link](http://www.github.com/)
+Black-box Testing           | 15         | ?                                   | [link](http://www.github.com/)              
+White-box Testing           | 16         | ?                                   | [link](http://www.github.com/)
+Regression Testing          | 17         | ?                                   | [link](http://www.github.com/)
+Fault Localization          | 18         | ?                                   | [link](http://www.github.com/)
+Architectural Styles        | 19         | ?                                   | [link](http://www.github.com/)
+Design Patterns             | 20         | ?                                   | [link](http://www.github.com/)
+Secure Software Engineering | 21         | ?                                   | [link](http://www.github.com/)
 
 ## Presentation Guidelines
 
@@ -29,9 +26,9 @@ In the span of one hour, we should be able to be able to summarize 2 weeks of le
 Suggested structure:
 
 * Important Concept 1:
-    * What it is about ?
-    * How it fits in the 
-    * Why it is important.
-    * How does it differ from other concepts we’ve seen ?
+* What it is about ?
+* How it fits in the 
+* Why it is important.
+* How does it differ from other concepts we’ve seen ?
 
 * Repeat for every concept
