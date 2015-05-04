@@ -8,7 +8,7 @@ The list of covered by those summaries, as well as who worked on them.
 
 Lecture Title               | Lecture n° | Authors                             | Link
 ----------------------------|------------|-------------------------------------|------
-Software Process Models     | 12         |                                     | [link](http://www.github.com/)
+Software Process Models     | 12         | Jenny (S)                           | [link](http://www.github.com/)
 Agile Development           | 13         | Matthew (W)                         | [link](http://www.github.com/)
 Cleanroom Dev Process       | 14         | ?                                   | [link](http://www.github.com/)
 Black-box Testing           | 15         | Kelsey (T)                          | [link](http://www.github.com/)              
