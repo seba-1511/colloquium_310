@@ -1,4 +1,4 @@
-% White Box Testing
+% White Box Testing - Lecture 16
 % Author: Anthony Wittemann
 % 6 May 2015
 
@@ -11,18 +11,21 @@
 ## Statement Coverage
 **Statement Coverage = (# executed statements) / (# statements)**
 
+See Slides 4 & 5 for Example
 
 ## Branch Coverage
 **Branch Coverage = (# traversed branches) / (# edges)**
 - each condition in a decision takes on all possible outcomes at least once, and each point of entry to a program or subroutine is invoked at least once. That is, every branch (decision) taken each way, true and false. 
 - It helps in validating all the branches in the code making sure that no branch leads to abnormal behavior of the application. 
 
+See Slides 7, 8 & 9 for Example
 
 ## Basic Condition Coverage
 **Basic Condition Coverage = (# boolean values assumed by all basic conditions) / (# boolean values of all basic conditions)**
 - full condition coverage does not guarantee full branch coverage
 - This metric is similar to branch coverage but has better sensitivity to the control flow
 
+See Slide 11 for Example
 
 ## Compound Condition Coverage
 Test requirements: All possible combinations of basic conditions
@@ -54,6 +57,8 @@ answer: 2^5 = 32
 - All possible control paths taken, including all loop paths taken zero, once, and multiple (ideally, maximum) items in path coverage technique, the test cases are prepared based on the logical complexity measure of a procedural design. 
 - In this type of testing every statement in the program is guaranteed to be executed at least one time. 
 - Flow Graph, Cyclomatic Complexity and Graph Metrics are used to arrive at basis path
+
+
 
 ### Memorize this:
 - 100% Path coverage will imply 100% Statement coverage
