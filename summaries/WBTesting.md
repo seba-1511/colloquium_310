@@ -51,15 +51,29 @@ Very thorough, but also very expensive for non-trivial programs.
 
 ![Image of Flowchart](https://07871e11-a-62cb3a1a-s-sites.googlegroups.com/site/swtestingconcepts/home/test-design-techniques/for-white-box/statement-branch-and-path-coverage/coverage.png?attachauth=ANoY7cqyyxk7aKq7Aef_wn0PIYBnu-zq7op9KjZbf6muaEUIF2jRETZ485N1ctKQbq16h-4nhNLkpTClgRE-mdvYDaJFSY-x2YgGoul33OlHToHd_3eCnFIoeDbcl2n1n6DZyCVwHGw3iCVuA7kSd1P3S5O-pP1x-Gr6YO-RfZFuPMOeYt70AIYEpvByIk5gtjWYd_gQwY8QH6npmThLPBKe7WB7nokpbAwqMHQ-EHlEkMKP_wp6MBsdIJTTzX8XFmYtpmujGXeXqQe4Y3xIS9N1ZR4b_rhs88ANCp7COVPS7OX_k-zAlFBlFLCmkISnxqEn5UkORXHrFU0OWwXzPmT5S9SiL2HSYA%3D%3D&attredirects=0)
 
-**Answer:** To calculate Statement Coverage, find out the shortest number of paths following 
+- **Answer:** To calculate Statement Coverage, you find out the shortest number of paths following 
 which all the nodes will be covered. Here by traversing through path 1A-2C-3D-E-4G-5H all 
 the nodes are covered. So by traveling through only one path all the nodes 12345 are covered, 
-so the Statement coverage in this case is 1.
+so the Statement coverage in this case is 1. Turns out the intern is right:exclamation: 
 
 - :question:  The intern claims that since his white box tests have 100% statement coverage that his job is done and he can go swimming in the bay with sharks. Should you allow him to go play in the bay with sharks or does he have more work to do? 
 
 
-**Answer:** Well, the white box testing is incomplete, since 100% statement coverage does not imply 100% branch coverage or 100% path coverage, but since he can't do white box testing correctly you should definately let him make friends with sharks :smiling_imp:
+- **Answer:** Well, the white box testing is incomplete, since 100% statement coverage does not imply 100% branch coverage or 100% path coverage, but since he can't do white box testing correctly you should definately let him make friends with sharks :smiling_imp:
 
-- :question: After a plunge in the cold bay water:droplet:, the nuber Buber intern
+- :question: After a plunge in the cold bay water:ocean:, the nuber Buber intern now realizes that branch coverage and path coverage are also important. In an effort to redeam himself, he finds a branch coverage of 2 and a path coverage of 3. He now claims that he has 100% coverage for Statement, Branch and Path Coverage. Has he redeamed himself?
+
+
+- **Answer:** To calculate Branch Coverage, you need to find out the minimum number of paths which will 
+ensure covering of all the edges. In this case there is no single path which will ensure coverage of all the edges in one go. By following paths 1A-2C-3D-E-4G-5H, maximum number of edges (A, C, D, E, G and H) are covered but edges B and F are left. To covers these edges we can follow  1A-2B-E-4F. By the combining the above two paths we can ensure of traveling through all the paths. Hence Branch Coverage is 2. The aim is to cover all possible true/false decisions. :ok_hand:
+
+Path Coverage ensures covering of all the paths from start to end.
+All possible paths are:
+* 1A-2B-E-4F
+* 1A-2B-E-4G-5H
+* 1A-2C-3D-E-4G-5H
+* 1A-2C-3D-E-4F
+ 
+ 
+So path coverage is 4, not 3. Silly intern:koala:
 
