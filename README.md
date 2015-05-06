@@ -11,7 +11,7 @@ Lecture Title               | Lecture n° | Authors                             
 Software Process Models     | 12         | Jenny (S)                           | [link](http://www.github.com/)
 Agile Development           | 13         | Matthew (W)                         | [link](http://www.github.com/)
 Cleanroom Dev Process       | 14         | ?                                   | [link](http://www.github.com/)
-Black-box Testing           | 15         | Kelsey (T)                          | [link](http://www.github.com/)              
+Black-box Testing           | 15         | Kelsey (T)                          | [link](http://www.github.com/)
 White-box Testing           | 16         | Anthony (Th)                        | [link](http://www.github.com/)
 Regression Testing          | 17         | ?                                   | [link](http://www.github.com/)
 Fault Localization          | 18         | Justine (W)                         | [link](http://www.github.com/)
@@ -32,3 +32,5 @@ In the span of one hour, we should be able to be able to summarize 2 weeks of le
     * How does it differ from other concepts we’ve seen ?
 
 * Repeat for every concept
+
+The way I worked through the Design Pattern lecture was to first decide if a slide was important or not, and if it was then imagine what were the possible questions about it.
