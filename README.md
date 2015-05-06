@@ -10,11 +10,11 @@ Lecture Title               | Lecture n° | Authors                             
 ----------------------------|------------|-------------------------------------|------
 Software Process Models     | 12         | Jenny (S)                           | [link](http://www.github.com/)
 Agile Development           | 13         | Matthew (W)                         | [link](http://www.github.com/)
-Cleanroom Dev Process       | 14         | ?                                   | [link](http://www.github.com/)
+Cleanroom Dev Process       | 14         | Jon (Th)                            | [link](http://www.github.com/)
 Black-box Testing           | 15         | Kelsey (T)                          | [link](http://www.github.com/)              
 White-box Testing           | 16         | Anthony (Th)                        | [link](http://www.github.com/)
 Regression Testing          | 17         | ?                                   | [link](http://www.github.com/)
-Fault Localization          | 18         | Justine (W)                         | [link](http://www.github.com/)
+Fault Localization          | 18         | Justine (S)                         | [link](http://www.github.com/)
 Architectural Styles        | 19         | ?                                   | [link](http://www.github.com/)
 Design Patterns             | 20         | Seb (T)                             | [link](http://www.github.com/)
 Secure Software Engineering | 21         | ?                                   | [link](http://www.github.com/)
