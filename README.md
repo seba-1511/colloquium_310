@@ -8,16 +8,16 @@ The list of covered by those summaries, as well as who worked on them.
 
 Lecture Title               | Lecture n° | Authors                             | Link
 ----------------------------|------------|-------------------------------------|------
-Software Process Models     | 12         | Jenny (S)                           | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
+Software Process Models     | 12         | Jenny (S)                           | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
 Agile Development           | 13         | Matthew (W)                         | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
-Cleanroom Dev Process       | 14         | Jon (Th)                            | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
-Black-box Testing           | 15         | Kelsey (T)                          | [link](http://www.github.com/colloquium_310/blob/master/summaries/BBTesting.md)              
-White-box Testing           | 16         | Anthony (Th)                        | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
-Regression Testing          | 17         | ?                                   | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
-Fault Localization          | 18         | Justine (S)                         | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
-Architectural Styles        | 19         | ?                                   | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
-Design Patterns             | 20         | Seb (T)                             | [link](http://www.github.com/colloquium_310/blob/master/summaries/DesignPatterns.md)
-Secure Software Engineering | 21         | ?                                   | [link](http://www.github.com/colloquium_310/blob/master/summaries/)
+Cleanroom Dev Process       | 14         | Jon (Th)                            | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
+Black-box Testing           | 15         | Kelsey (T)                          | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/BBTesting.md)              
+White-box Testing           | 16         | Anthony (Th)                        | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
+Regression Testing          | 17         | ?                                   | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
+Fault Localization          | 18         | Justine (S)                         | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
+Architectural Styles        | 19         | ?                                   | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
+Design Patterns             | 20         | Seb (T)                             | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/DesignPatterns.md)
+Secure Software Engineering | 21         | ?                                   | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
 
 ## Presentation Guidelines
 
