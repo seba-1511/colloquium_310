@@ -32,18 +32,23 @@ Very thorough, but also very expensive for non-trivial programs.
 - :-1: An additional disadvantage of this metric is that the number of test cases required could vary substantially among conditions that have similar complexity. For example, consider the following two C/C++/Java conditions.
 
 ex1: 
-    ((a || b) && (c || d)) && e
- 1.   F    F      -    -      -
- 2.   F    T      F    F      -
- 3.   F    T      F    T      F
- 4.   F    T      F    T      T
- 5.   F    T      T    -      F
- 6.   F    T      T    -      T
- 7.   T    -      F    F      -
- 8.   T    -      F    T      F
- 9.   T    -      F    T      T
-10.   T    -      T    -      F
-11.   T    -      T    -      T
+if (a or b) and c then
+
+1. a=false, b=false, c=false
+2. a=false, b=false, c=true
+3. a=false, b=true, c=false
+4. a=false, b=true, c=true
+5. a=true, b=false, c=false
+6. a=true, b=false, c=true
+7. a=true, b=true, c=false
+8. a=true, b=true, c=true
+ 
+ex2:
+( ( ( ( a || b ) && c ) || d ) && e )
+
+How many test requirements? 
+
+answer: 2^5 = 32
 
 ## Path Coverage
 - All possible control paths taken, including all loop paths taken zero, once, and multiple (ideally, maximum) items in path coverage technique, the test cases are prepared based on the logical complexity measure of a procedural design. 
