@@ -4,7 +4,9 @@
 
 ## Overview
 
-This lecture discusses the approaches, characteristics, and concept of black box testing. Compared to white box testing, which is testing against the code itself, black box testing is testing against the specifications to see if the code implemented does what is specified. White box testing is testing functionality where black box testing focuses on the domain of the input data. There are two main approaches: identification of representative values and derivation of a model. Note that the quality of testing is highly dependent on the requirements given to the development team. If a requirement hasn't been specified or explicitly stated, then it cannot be tested.
+This lecture discusses the approaches, characteristics, and concept of black box testing. There are three processes discussed, which are: the general process, category-partition process, and state-based process.
+
+Compared to white box testing, which is testing against the code itself, black box testing is testing against the specifications to see if the code implemented does what is specified. White box testing is testing functionality where black box testing focuses on the domain of the input data. There are two main approaches: identification of representative values and derivation of a model. Note that the quality of testing is highly dependent on the requirements given to the development team. If a requirement hasn't been specified or explicitly stated, then it cannot be tested.
 
 
 ## Important Slides
@@ -13,7 +15,7 @@ A list of the important slides, and an explanation of why they are important. (A
 
 #### Slide n°3: 
 
-This slide contains an example of the specifications for the given function "foo". The specification is an example of black box testing. It's a fairly easy function, but note that you want to compare the specifications to the function to see if the function does what is specified. Does the function do what is specified? (Answer: No)
+This slide contains an example of the specifications for the given function "foo". The specification is an example of black box testing. Note that you want to compare the specifications to the function, not the function and its functionality. Does the function do what is specified? (Answer: No)
 
 ```c++
 int foo (int param){
@@ -67,7 +69,7 @@ Here is a General Approach to Black Box Testing:
 3. **Generation of test cases *(Slide 9)***
 * Main point: you want to select test cases according to the interface.
 * Suitably combining values for all inputs
-* Cartesian product
+* Cartesian product: returning a set from multiple sets
 * Problem: scalability
 * Use domain knowledge
      * Reduce redundant tests
@@ -79,9 +81,6 @@ Here is a General Approach to Black Box Testing:
 	 * Decoupling of different activities
 	 * Dividing brain-intensive form steps that can be automated
 	 * Monitoring of the test process
-
-Category partition process
-State-based process for testing
 
 #### Slide n°12: 
 Category-Partition Method:
@@ -197,17 +196,22 @@ Finite State Machines: Approach
 
 * Identify boundaries--> inputs--> states--> outputs--> Build table of the states (state + event->state) --> Build table of the outputs (state + event-> output)--> Design and run tests
 
-#### Slide n°38:
+#### Slide n°39:
 
-This is a good example of the bottling machine
+Bottling Machine Example:
+
+* **Nodes**: System stopped, waiting for bottle, filling in process, corking waiting for removal
+* **Edge attributes**: Start/Bottle Request, bottle in place, Level Reached/ Interruption/Alarm, Removal Request, Bottle removed/Bottle request, shut down
+
 
 ## Exam Questions
 
 A list of questions that will probably appear in the final exam.
 
+* Identify three test cases for a program that inputs an integer and prints its value.
+* Identify 8 test cases for a program that inputs a line of text and breaks it into chunks of up to 80 characters.
 * What is the difference between an input parameter vs. environmental parameter?
 * Define nodes, edges, and edge attributes.
-* 
 
 
 
