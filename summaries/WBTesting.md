@@ -9,15 +9,17 @@
 
 
 ## Statement Coverage
-Statement Coverage = (# executed statements) / (# statements)
+**Statement Coverage = (# executed statements) / (# statements)**
 
 
 ## Branch Coverage
-Branch Coverage = (# traversed branches) / (# edges)
+**Branch Coverage = (# traversed branches) / (# edges)**
+- each condition in a decision takes on all possible outcomes at least once, and each point of entry to a program or subroutine is invoked at least once. That is, every branch (decision) taken each way, true and false. 
+- It helps in validating all the branches in the code making sure that no branch leads to abnormal behavior of the application. 
 
 
 ## Basic Condition Coverage
-Basic Condition Coverage = (# boolean values assumed by all basic conditions) / (# boolean values of all basic conditions)
+**Basic Condition Coverage = (# boolean values assumed by all basic conditions) / (# boolean values of all basic conditions)**
 - full condition coverage does not guarantee full branch coverage
 - This metric is similar to branch coverage but has better sensitivity to the control flow
 
@@ -29,6 +31,24 @@ Very thorough, but also very expensive for non-trivial programs.
 - :-1: A disadvantage of this metric is that it can be tedious to determine the minimum set of test cases required, especially for very complex Boolean expressions.
 - :-1: An additional disadvantage of this metric is that the number of test cases required could vary substantially among conditions that have similar complexity. For example, consider the following two C/C++/Java conditions.
 
+ex1: 
+    ((a || b) && (c || d)) && e
+ 1.   F    F      -    -      -
+ 2.   F    T      F    F      -
+ 3.   F    T      F    T      F
+ 4.   F    T      F    T      T
+ 5.   F    T      T    -      F
+ 6.   F    T      T    -      T
+ 7.   T    -      F    F      -
+ 8.   T    -      F    T      F
+ 9.   T    -      F    T      T
+10.   T    -      T    -      F
+11.   T    -      T    -      T
+
+## Path Coverage
+- All possible control paths taken, including all loop paths taken zero, once, and multiple (ideally, maximum) items in path coverage technique, the test cases are prepared based on the logical complexity measure of a procedural design. 
+- In this type of testing every statement in the program is guaranteed to be executed at least one time. 
+- Flow Graph, Cyclomatic Complexity and Graph Metrics are used to arrive at basis path
 
 ### Memorize this:
 - 100% Path coverage will imply 100% Statement coverage
@@ -61,11 +81,11 @@ so the Statement coverage in this case is 1. Turns out the intern is right:excla
 
 - **Answer:** Well, the white box testing is incomplete, since 100% statement coverage does not imply 100% branch coverage or 100% path coverage, but since he can't do white box testing correctly you should definately let him make friends with sharks :smiling_imp:
 
-- :question: After a plunge in the cold bay water:ocean:, the nuber Buber intern now realizes that branch coverage and path coverage are also important. In an effort to redeam himself, he finds a branch coverage of 2 and a path coverage of 3. He now claims that he has 100% coverage for Statement, Branch and Path Coverage. Has he redeamed himself?
+- :question: After a plunge in the cold bay water :ocean:, the nuber Buber intern now realizes that branch coverage and path coverage are also important. In an effort to redeam himself, he finds a branch coverage of 2 and a path coverage of 3. He now claims that he has 100% coverage for Statement, Branch and Path Coverage. Has he redeamed himself?
 
 
 - **Answer:** To calculate Branch Coverage, you need to find out the minimum number of paths which will 
-ensure covering of all the edges. In this case there is no single path which will ensure coverage of all the edges in one go. By following paths 1A-2C-3D-E-4G-5H, maximum number of edges (A, C, D, E, G and H) are covered but edges B and F are left. To covers these edges we can follow  1A-2B-E-4F. By the combining the above two paths we can ensure of traveling through all the paths. Hence Branch Coverage is 2. The aim is to cover all possible true/false decisions. :ok_hand:
+ensure covering of all the edges. In this case there is no single path which will ensure coverage of all the edges in one go. By following paths 1A-2C-3D-E-4G-5H, maximum number of edges (A, C, D, E, G and H) are covered but edges B and F are left. To covers these edges we can follow  1A-2B-E-4F. By the combining the above two paths we can ensure of traveling through all the paths. Hence Branch Coverage is 2. The aim is to cover all possible true/false decisions. Well Done intern :ok_hand:
 
 Path Coverage ensures covering of all the paths from start to end.
 All possible paths are:
@@ -75,5 +95,5 @@ All possible paths are:
 * 1A-2C-3D-E-4F
  
  
-So path coverage is 4, not 3. Silly intern:koala:
+So path coverage is 4, not 3. Silly intern :koala:
 
