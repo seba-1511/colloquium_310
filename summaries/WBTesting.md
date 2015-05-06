@@ -17,7 +17,7 @@ ex:
 
 
 
-**Memorize this:
-100% Path coverage will imply 100% Statement coverage
-100% Branch coverage will imply 100% Statement coverage
-100% Path coverage will imply 100% Branch coverage**
+**Memorize this:**
+- 100% Path coverage will imply 100% Statement coverage
+- 100% Branch coverage will imply 100% Statement coverage
+- 100% Path coverage will imply 100% Branch coverage
