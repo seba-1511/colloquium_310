@@ -94,6 +94,9 @@ Generates a set of test cases from a functional specification in several steps (
 * E: Produce and evaluate test-case specifications
 * F: Generate test cases from test-case specifications
 
+
+![Category Partition Method](CatPartMeth.jpg "Category Partition Method")
+
 #### Slide n°14:
 
 Step A: Identifying Independently testable features
