@@ -8,15 +8,15 @@ The list of covered by those summaries, as well as who worked on them.
 
 Lecture Title               | Lecture n° | Authors                             | Link
 ----------------------------|------------|-------------------------------------|------
-Software Process Models     | 12         | Author 1 & Author 2                 | [link](http://www.github.com/)
-Agile Development           | 13         | ?                                   | [link](http://www.github.com/)
+Software Process Models     | 12         | Jenny (S)                           | [link](http://www.github.com/)
+Agile Development           | 13         | Matthew (W)                         | [link](http://www.github.com/)
 Cleanroom Dev Process       | 14         | ?                                   | [link](http://www.github.com/)
-Black-box Testing           | 15         | ?                                   | [link](http://www.github.com/)              
-White-box Testing           | 16         | ?                                   | [link](http://www.github.com/)
+Black-box Testing           | 15         | Kelsey (T)                          | [link](http://www.github.com/)              
+White-box Testing           | 16         | Anthony (Th)                        | [link](http://www.github.com/)
 Regression Testing          | 17         | ?                                   | [link](http://www.github.com/)
-Fault Localization          | 18         | ?                                   | [link](http://www.github.com/)
+Fault Localization          | 18         | Justine (W)                         | [link](http://www.github.com/)
 Architectural Styles        | 19         | ?                                   | [link](http://www.github.com/)
-Design Patterns             | 20         | ?                                   | [link](http://www.github.com/)
+Design Patterns             | 20         | Seb (T)                             | [link](http://www.github.com/)
 Secure Software Engineering | 21         | ?                                   | [link](http://www.github.com/)
 
 ## Presentation Guidelines
