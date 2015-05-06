@@ -6,23 +6,38 @@
 - White Box Testing is based on elements in the **CODE**
 - **White Box Testing assumes that executing a faulty element is necessary for revealing the fault**
 
-
-ex:
+### Example Program
 1. Read P 
 2. Read Q 
 3. IF P+Q > 100 THEN 
-4.    Print “Large” 
+4. Print “Large” 
 5. ENDIF 
 6. If P > 50 THEN 
-7.    Print “P Large” 
+7. Print “P Large” 
 8. ENDIF
+
+![Image of Flowchart](https://07871e11-a-62cb3a1a-s-sites.googlegroups.com/site/swtestingconcepts/home/test-design-techniques/for-white-box/statement-branch-and-path-coverage/coverage.png?attachauth=ANoY7cqyyxk7aKq7Aef_wn0PIYBnu-zq7op9KjZbf6muaEUIF2jRETZ485N1ctKQbq16h-4nhNLkpTClgRE-mdvYDaJFSY-x2YgGoul33OlHToHd_3eCnFIoeDbcl2n1n6DZyCVwHGw3iCVuA7kSd1P3S5O-pP1x-Gr6YO-RfZFuPMOeYt70AIYEpvByIk5gtjWYd_gQwY8QH6npmThLPBKe7WB7nokpbAwqMHQ-EHlEkMKP_wp6MBsdIJTTzX8XFmYtpmujGXeXqQe4Y3xIS9N1ZR4b_rhs88ANCp7COVPS7OX_k-zAlFBlFLCmkISnxqEn5UkORXHrFU0OWwXzPmT5S9SiL2HSYA%3D%3D&attredirects=0)
 
 ## Statement Coverage
 Statement Coverage = (# executed statements) / (# statements)
 
 
+## Branch Coverage
+Branch Coverage = (# traversed branches) / (# edges)
 
 
+## Basic Condition Coverage
+Basic Condition Coverage = (# boolean values assumed by all basic conditions) / (# boolean values of all basic conditions)
+- full condition coverage does not guarantee full branch coverage
+- This metric is similar to branch coverage but has better sensitivity to the control flow
+
+
+## Compound Condition Coverage
+Test requirements: All possible combinations of basic conditions
+Very thorough, but also very expensive for non-trivial programs.
+- For languages with short circuit operators such as C, C++, and Java, an advantage of multiple condition coverage is that it requires very thorough testing. For these languages, multiple condition coverage is very similar to basic condition coverage.
+- A disadvantage of this metric is that it can be tedious to determine the minimum set of test cases required, especially for very complex Boolean expressions.
+- An additional disadvantage of this metric is that the number of test cases required could vary substantially among conditions that have similar complexity. For example, consider the following two C/C++/Java conditions.
 
 
 ### Memorize this:
