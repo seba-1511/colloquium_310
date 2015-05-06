@@ -8,14 +8,14 @@
 
 
 ex:
-1) Read P 
-2) Read Q 
-3) IF P+Q > 100 THEN 
-4)    Print “Large” 
-5) ENDIF 
-6) If P > 50 THEN 
-7)    Print “P Large” 
-8) ENDIF
+1. Read P 
+2. Read Q 
+3. IF P+Q > 100 THEN 
+4.    Print “Large” 
+5. ENDIF 
+6. If P > 50 THEN 
+7.    Print “P Large” 
+8. ENDIF
 
 ## Statement Coverage
 Statement Coverage = (# executed statements) / (# statements)
