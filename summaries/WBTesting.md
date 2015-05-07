@@ -57,7 +57,24 @@ answer: 2^5 = 32
 - All possible control paths taken, including all loop paths taken zero, once, and multiple (ideally, maximum) items in path coverage technique, the test cases are prepared based on the logical complexity measure of a procedural design. 
 - In this type of testing every statement in the program is guaranteed to be executed at least one time. 
 - Flow Graph, Cyclomatic Complexity and Graph Metrics are used to arrive at basis path
+- Often, faults are revealed only exercising a sequence of decisions (e.g., after many iterations of a loop)
+- The **path adequacy criterion** requires each path in the program to be exercised by at least one test case
+- The criterion is impractical, even for simple programs
+- Therefore, criteria that consider only a subset of paths have been defined
 
+#### Basis Path Coverage
+- Requirements: Set of basis paths in the program. Based on the concept of cyclomatic complexity, which is the number of independent paths in the basis set (paths as vectors)
+
+#### Loop Coverage
+- All paths that contain at most **n** iterations of any loop in the program
+- Problem is: for what value of **n**?
+
+## Data Flow Coverage
+- Basic idea: Test definitions (d) and uses (u) of variables
+- Test requirements: sets of du-pairs with respect to variable v
+ * a definition of v is a reference to v where the value of v is changed (e.g., assignment to v, input a value of v)
+ * a use v is a reference to v where the value of v is fetched but not changed (e.g., v on right-hand side of assignment, v is output)
+ * a def-clear subpath for a definition d of v and a use u of v is a subpath in the CFG between d and u on which v is not redefined
 
 
 ### Memorize this:
