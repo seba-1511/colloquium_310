@@ -34,3 +34,7 @@ In the span of one hour, we should be able to be able to summarize 2 weeks of le
 * Repeat for every concept
 
 The way I worked through the Design Pattern lecture was to first decide if a slide was important or not, and if it was then imagine what were the possible questions about it.
+
+## Other Resources
+
+A summary built by other team members of the class: [Available here](https://docs.google.com/a/usc.edu/document/d/1Sq-aJOKIpdxkiEUAWjD4DB6DqkHIuCB2MMWoevIOm-Q/edit?usp=sharing_eid)
