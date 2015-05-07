@@ -75,6 +75,15 @@ answer: 2^5 = 32
  * a definition of v is a reference to v where the value of v is changed (e.g., assignment to v, input a value of v)
  * a use v is a reference to v where the value of v is fetched but not changed (e.g., v on right-hand side of assignment, v is output)
  * a def-clear subpath for a definition d of v and a use u of v is a subpath in the CFG between d and u on which v is not redefined
+ 
+#### Data Flow Coverage Criteria
+
+- **All Defs** Test requirements: For each definition of each variable, at least a du pair containing that definition
+- **All uses** Test requirements: For each definition, a def-clear path from the definition to all uses
+- **All du paths** Test requirements: For each definition and each use of each variable, all def-clear paths from the definition to the use
+
+
+**STUDY SLIDES 20, 21, 22, 25, 26 FOR EXAMPLES OF DATA FLOW**
 
 
 ### Memorize this:
