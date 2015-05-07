@@ -17,7 +17,7 @@ Regression Testing          | 17         | ?                                   |
 Fault Localization          | 18         | Justine (S)                         | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
 Architectural Styles        | 19         | ?                                   | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
 Design Patterns             | 20         | Seb (T)                             | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/DesignPatterns.md)
-Secure Software Engineering | 21         | ?                                   | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
+Secure Software Engineering | 21         | Daler (S)                           | [link](http://www.github.com/seba-1511/colloquium_310/blob/master/summaries/)
 
 ## Presentation Guidelines
 
