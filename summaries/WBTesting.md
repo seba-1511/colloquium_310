@@ -65,6 +65,9 @@ answer: 2^5 = 32
 
 #### Basis Path Coverage
 - Requirements: Set of basis paths in the program. Based on the concept of cyclomatic complexity, which is the number of independent paths in the basis set (paths as vectors)
+- Cyclomatic Complexity: e - n + 2p, where e is the number of edges in the CFG, n is the number of nodes in the CFG, p is the number of connected components in the CFG        or        number of predicates + 1 for structured programs
+
+ex: ![Image of CC](http://webdocs.cs.ualberta.ca/~sorenson/cmput401/lectures/Measurement/img009.gif)
 
 #### Loop Coverage
 - All paths that contain at most **n** iterations of any loop in the program
