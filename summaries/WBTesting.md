@@ -1,4 +1,3 @@
-TODO add Cyclomatic Complexity, make sure ?s are kosher
 % White Box Testing - Lecture 16
 % Author: Anthony Wittemann
 % 6 May 2015
