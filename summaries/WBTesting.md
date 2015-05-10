@@ -65,7 +65,7 @@ answer: 2^5 = 32
 
 #### Basis Path Coverage
 - Requirements: Set of basis paths in the program. Based on the concept of cyclomatic complexity, which is the number of independent paths in the basis set (paths as vectors)
-- Cyclomatic Complexity: e - n + 2p, where e is the number of edges in the CFG, n is the number of nodes in the CFG, p is the number of connected components in the CFG        or        number of predicates + 1 for structured programs
+- Cyclomatic Complexity: e - n + 2p, where e is the number of edges in the CFG, n is the number of nodes in the CFG, p is the number of connected components in the CFG        or        number of predicates (statements that cause a branch, think if statements) + 1 for structured programs
 
 ex: ![Image of CC](http://webdocs.cs.ualberta.ca/~sorenson/cmput401/lectures/Measurement/img009.gif)
 
@@ -90,10 +90,7 @@ ex: ![Image of CC](http://webdocs.cs.ualberta.ca/~sorenson/cmput401/lectures/Mea
 **STUDY SLIDES 20, 21, 22, 25, 26 FOR EXAMPLES OF DATA FLOW**
 
 
-### Memorize this:
-- 100% Path coverage will imply 100% Statement coverage
-- 100% Branch coverage will imply 100% Statement coverage
-- 100% Path coverage will imply 100% Branch coverage
+### Coverage Hierachy: 100% Path --> 100% Branch --> 100% Statement
 
 
 ## Questions
